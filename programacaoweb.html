@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estudo de Caso Programação Web</title>
+    <style>
+        /* Estilos de exemplo para a barra de navegação */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; /* Cor de fundo da barra de navegação */
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 4px 8px;
+            text-decoration: none;
+        }
+
+        li.navitem a:hover {
+            background-color: #555; /* Cor de fundo ao passar o mouse */
+        }
+
+        /* Estilos de exemplo para o cabeçalho */
+        header {
+            background-color: #333; /* Cor de fundo do cabeçalho */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilos de exemplo para o rodapé */
+        footer {
+            background-color: #333; /* Cor de fundo do rodapé */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li class="navitem"><a href="#">Home</a></li>
+        <li class="navitem"><a href="#">Sobre</a></li>
+        <li class="navitem"><a href="#cadastro">Cadastro</a></li>
+    </ul>
+
+    <header>
+        <h1>Estudo de Caso</h1>
+        <h2>Programação Web</h2>
+    </header>
+
+    <body>
+        Imagine a Paisagem de um Pôr do Sol
+    </body>
+
+    <div id="cadastro">
+        <h2>Cadastro</h2>
+        <form>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required><br>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>Endereço: Rua dos Escritores, 28</p>
+        <p>Cidade: São José </p>
+        <p>Estado: Santa Catarina</p>
+        <p>CEP: 88119-308</p>
+    </footer>
+</body>
+</html>
